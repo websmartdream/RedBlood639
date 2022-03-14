@@ -1,20 +1,21 @@
 /********** Template CSS **********/
+
 :root {
-  --primary: #00B87B;
+  --primary: #00b87b;
   --secondary: #314355;
-  --light: #F2F2F2;
-  --dark: #2C3E50;
+  --light: #f2f2f2;
+  --dark: #2c3e50;
 }
 
 #spinner {
   opacity: 0;
   visibility: hidden;
-  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
   z-index: 99999;
 }
 
 #spinner.show {
-  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
 }
@@ -58,7 +59,7 @@
 }
 
 .btn.btn-primary {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .typed-cursor {
@@ -162,7 +163,7 @@
   justify-content: center;
   background: var(--light);
   color: var(--primary);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover i {
@@ -177,9 +178,9 @@
   top: 50%;
   left: 50%;
   font-size: 90px;
-  background: rgba(44, 62, 80, .9);
+  background: rgba(44, 62, 80, 0.9);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .portfolio-item:hover .portfolio-btn {
@@ -192,8 +193,8 @@
 
 .portfolio-item i {
   opacity: 0;
-  transition: .3s;
-  transition-delay: .3s;
+  transition: 0.3s;
+  transition-delay: 0.3s;
 }
 
 .portfolio-item:hover i {
