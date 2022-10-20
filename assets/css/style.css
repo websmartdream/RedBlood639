@@ -450,6 +450,8 @@ section .container {
 }
 .skills .progress-bar-wrap {
   background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
 }
 .skills .progress-bar {
   width: 1px;
@@ -704,7 +706,7 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
@@ -719,7 +721,10 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  box-shadow: rgb(90, 138, 223) 0px 0px 15px 0px;
+  border-radius: 25px !important;
 }
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
